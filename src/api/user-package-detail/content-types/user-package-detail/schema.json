@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "user_package_details",
+  "info": {
+    "singularName": "user-package-detail",
+    "pluralName": "user-package-details",
+    "displayName": "userPackageDetail",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "userPackageId": {
+      "type": "uid"
+    },
+    "userId": {
+      "type": "integer"
+    },
+    "packageId": {
+      "type": "biginteger"
+    },
+    "packageDate": {
+      "type": "date"
+    },
+    "expiryDate": {
+      "type": "date"
+    },
+    "amountOther": {
+      "type": "biginteger"
+    },
+    "descriptionOther": {
+      "type": "string"
+    },
+    "discount": {
+      "type": "string"
+    },
+    "amount": {
+      "type": "biginteger"
+    },
+    "recoveryStatus": {
+      "type": "boolean"
+    }
+  }
+}

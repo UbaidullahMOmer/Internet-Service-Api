@@ -1,0 +1,53 @@
+{
+  "kind": "collectionType",
+  "collectionName": "expenses",
+  "info": {
+    "singularName": "expense",
+    "pluralName": "expenses",
+    "displayName": "expense",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "expenseId": {
+      "type": "uid"
+    },
+    "areaId": {
+      "type": "integer"
+    },
+    "serviceType": {
+      "type": "enumeration",
+      "enum": [
+        "Internet",
+        "Cable"
+      ]
+    },
+    "description": {
+      "type": "text"
+    },
+    "creditAmount": {
+      "type": "biginteger"
+    },
+    "debitAmount": {
+      "type": "biginteger"
+    },
+    "expense": {
+      "type": "biginteger"
+    },
+    "profit": {
+      "type": "biginteger"
+    },
+    "balance": {
+      "type": "biginteger"
+    },
+    "addedOn": {
+      "type": "datetime"
+    },
+    "addedBy": {
+      "type": "string"
+    }
+  }
+}

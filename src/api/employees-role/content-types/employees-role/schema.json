@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "employees_roles",
+  "info": {
+    "singularName": "employees-role",
+    "pluralName": "employees-roles",
+    "displayName": "employeesRole"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  }
+}

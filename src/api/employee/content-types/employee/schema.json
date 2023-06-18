@@ -1,0 +1,75 @@
+{
+  "kind": "collectionType",
+  "collectionName": "employees",
+  "info": {
+    "singularName": "employee",
+    "pluralName": "employees",
+    "displayName": "employee",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "employeeId": {
+      "type": "uid"
+    },
+    "cnic": {
+      "type": "biginteger",
+      "required": true,
+      "max": "13",
+      "min": "13"
+    },
+    "userName": {
+      "type": "string"
+    },
+    "password": {
+      "type": "password"
+    },
+    "employeeEmail": {
+      "type": "email"
+    },
+    "employeeRole": {
+      "type": "string"
+    },
+    "employeeImg": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "phone": {
+      "type": "biginteger",
+      "required": true,
+      "unique": true
+    },
+    "address": {
+      "type": "text",
+      "required": true
+    },
+    "areaId": {
+      "type": "integer"
+    },
+    "addedDate": {
+      "type": "date"
+    },
+    "status": {
+      "type": "boolean"
+    },
+    "contact_flag": {
+      "type": "string"
+    },
+    "last_login": {
+      "type": "date"
+    }
+  }
+}

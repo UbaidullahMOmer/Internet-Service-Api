@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "company_properties",
+  "info": {
+    "singularName": "company-property",
+    "pluralName": "company-properties",
+    "displayName": "companyProperty"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "companyPropertyId": {
+      "type": "uid"
+    },
+    "userId": {
+      "type": "integer"
+    },
+    "description": {
+      "type": "string"
+    },
+    "price": {
+      "type": "integer"
+    },
+    "flag": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    }
+  }
+}

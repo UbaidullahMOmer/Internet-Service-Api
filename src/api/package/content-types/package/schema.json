@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "packages",
+  "info": {
+    "singularName": "package",
+    "pluralName": "packages",
+    "displayName": "package",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "Internet",
+        "Cable"
+      ]
+    },
+    "company": {
+      "type": "enumeration",
+      "enum": [
+        "connect",
+        "Bahi Log Cable Network"
+      ]
+    },
+    "retailPrice": {
+      "type": "biginteger"
+    },
+    "sellingPrice": {
+      "type": "biginteger"
+    },
+    "packageId": {
+      "type": "uid"
+    }
+  }
+}

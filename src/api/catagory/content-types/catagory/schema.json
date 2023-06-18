@@ -4,7 +4,7 @@
   "info": {
     "singularName": "catagory",
     "pluralName": "catagories",
-    "displayName": "catagory",
+    "displayName": "pakgeCatagory",
     "description": ""
   },
   "options": {
@@ -12,20 +12,14 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "title": {
+    "categoryName": {
       "type": "string"
     },
-    "subcatas": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::subcata.subcata",
-      "mappedBy": "catagory"
+    "categoryId": {
+      "type": "uid"
     },
-    "products": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::product.product",
-      "mappedBy": "catagory"
+    "period": {
+      "type": "string"
     }
   }
 }
