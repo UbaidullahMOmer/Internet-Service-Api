@@ -65,12 +65,12 @@
       "inversedBy": "users",
       "configurable": false
     },
-    "fname": {
+    "firstname": {
       "type": "string",
       "default": "fname",
       "required": true
     },
-    "lname": {
+    "lastname": {
       "type": "string"
     },
     "mobile": {

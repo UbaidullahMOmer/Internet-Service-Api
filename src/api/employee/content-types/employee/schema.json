@@ -21,8 +21,8 @@
     "cnic": {
       "type": "biginteger",
       "required": true,
-      "max": "13",
-      "min": "13"
+      "max": "9999999999999",
+      "min": "999999999999"
     },
     "userName": {
       "type": "string"
@@ -32,9 +32,6 @@
     },
     "employeeEmail": {
       "type": "email"
-    },
-    "employeeRole": {
-      "type": "string"
     },
     "employeeImg": {
       "type": "media",
@@ -70,6 +67,14 @@
     },
     "last_login": {
       "type": "date"
+    },
+    "employeeRole": {
+      "type": "enumeration",
+      "enum": [
+        "Admin",
+        "User",
+        "Recovery Boy"
+      ]
     }
   }
 }
