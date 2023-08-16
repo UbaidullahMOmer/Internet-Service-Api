@@ -1,115 +1,115 @@
-############################
-# OS X
-############################
+# ############################
+# # OS X
+# ############################
 
-.DS_Store
-.AppleDouble
-.LSOverride
-Icon
-.Spotlight-V100
-.Trashes
-._*
-
-
-############################
-# Linux
-############################
-
-*~
+# .DS_Store
+# .AppleDouble
+# .LSOverride
+# Icon
+# .Spotlight-V100
+# .Trashes
+# ._*
 
 
-############################
-# Windows
-############################
+# ############################
+# # Linux
+# ############################
 
-Thumbs.db
-ehthumbs.db
-Desktop.ini
-$RECYCLE.BIN/
-*.cab
-*.msi
-*.msm
-*.msp
+# *~
 
 
-############################
-# Packages
-############################
+# ############################
+# # Windows
+# ############################
 
-*.7z
-*.csv
-*.dat
-*.dmg
-*.gz
-*.iso
-*.jar
-*.rar
-*.tar
-*.zip
-*.com
-*.class
-*.dll
-*.exe
-*.o
-*.seed
-*.so
-*.swo
-*.swp
-*.swn
-*.swm
-*.out
-*.pid
+# Thumbs.db
+# ehthumbs.db
+# Desktop.ini
+# $RECYCLE.BIN/
+# *.cab
+# *.msi
+# *.msm
+# *.msp
 
 
-############################
-# Logs and databases
-############################
+# ############################
+# # Packages
+# ############################
 
-.tmp
-*.log
-*.sql
-*.sqlite
-*.sqlite3
+# *.7z
+# *.csv
+# *.dat
+# *.dmg
+# *.gz
+# *.iso
+# *.jar
+# *.rar
+# *.tar
+# *.zip
+# *.com
+# *.class
+# *.dll
+# *.exe
+# *.o
+# *.seed
+# *.so
+# *.swo
+# *.swp
+# *.swn
+# *.swm
+# *.out
+# *.pid
 
 
-############################
-# Misc.
-############################
+# ############################
+# # Logs and databases
+# ############################
 
-*#
-ssl
-.idea
-nbproject
-public/uploads/*
-!public/uploads/.gitkeep
+# .tmp
+# *.log
+# *.sql
+# *.sqlite
+# *.sqlite3
 
-############################
-# Node.js
-############################
 
-lib-cov
-lcov.info
-pids
-logs
-results
+# ############################
+# # Misc.
+# ############################
+
+# *#
+# ssl
+# .idea
+# nbproject
+# public/uploads/*
+# !public/uploads/.gitkeep
+
+# ############################
+# # Node.js
+# ############################
+
+# lib-cov
+# lcov.info
+# pids
+# logs
+# results
 node_modules
-.node_history
+# .node_history
 
-############################
-# Tests
-############################
+# ############################
+# # Tests
+# ############################
 
-testApp
-coverage
+# testApp
+# coverage
 
-############################
-# Strapi
-############################
+# ############################
+# # Strapi
+# ############################
 
-.env
-license.txt
-exports
-*.cache
-dist
-build
-.strapi-updater.json
+# .env
+# license.txt
+# exports
+# *.cache
+# dist
+# build
+# .strapi-updater.json
